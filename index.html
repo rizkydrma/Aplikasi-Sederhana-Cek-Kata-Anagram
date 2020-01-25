@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Anagram</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="case">
+      <h4 class="text-center mt-3">Apakah Kata Anagram</h4>
+      <div class="row p-2 justify-content-center text-center">
+        <div class="col-md-6 col-sm-12">
+          <div class="form-group">
+            <h5 class="">Kata Pertama</h5>
+            <textarea name="kataSatu" id="kataSatu" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="form-group">
+            <h5 class="">Kata Kedua</h5>
+            <textarea name="kataDua" id="kataDua" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+        <div class="col-6">
+          <button type="submit" class="btn btn-block btn-secondary rounded-pill">Bandingkan !</button>
+        </div>
+      </div>
+      <h4 class="text-center" id="result"></h4>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
